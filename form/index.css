@@ -1,0 +1,110 @@
+.image {
+  display: flex;
+  height: 50rem;
+  border-radius: 10px;
+}
+
+main {
+  background-color: #3b364c;
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.img-div {
+  flex-basis: auto;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: max-content;
+  gap: 10px;
+}
+.top > h1 {
+  font-size: 45px;
+  margin: 0;
+}
+.names {
+  display: flex;
+  gap: 10px;
+}
+.names > input {
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3b364c;
+}
+.inputs > input {
+    display: flex;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3b364c;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form {
+  flex-basis: auto;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: brown;
+}
+.box {
+  display: flex;
+}
+.Google {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.goat {
+  display: flex;
+  flex: row;
+  padding: 1rem 2rem;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+/* #fletch{
+    width: 200px;
+    padding: 2px 5px;
+    border-radius: 0.3rem;
+    height: 1.6rem;
+
+} */
+.create {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 3rem;
+}
+/* #last{
+    width: 200px;
+    padding: 2px 5px;
+    border-radius: 0.3rem;
+    height: 1.6rem;
+   
+} */
+/* #mail {
+  padding: 2px 5px;
+  border-radius: 0.3rem;
+  height: 1.6rem;
+}
+#pass {
+  padding: 2px 5px;
+  border-radius: 0.3rem;
+  height: 1.6rem;
+} */
